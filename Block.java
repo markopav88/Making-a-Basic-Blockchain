@@ -2,9 +2,9 @@ import java.util.Date;
 
 public class Block {
 
-	public String hash;
-	public String previousHash;
-	private String data; //our data will be a simple message.
+	public String hash; //holds our digital signature
+	public String previousHash; //hold the previous block’s hash
+	private String data; //our data will be a simple message & hold our block data.
 	private long timeStamp; //as number of milliseconds since 1/1/1970.
 
 	//Block Constructor.
