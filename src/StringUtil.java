@@ -1,3 +1,4 @@
+package src;
 import java.security.MessageDigest;
 
 //Simply put, this class akes a string and applies SHA256 algorithm to it, and returns the generated signature as a string.
