@@ -1,6 +1,6 @@
 package src;
 import java.util.Date;
-
+//Check
 public class Block {
 
 	public String hash; //holds our digital signature
